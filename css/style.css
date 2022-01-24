@@ -1,0 +1,279 @@
+
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "CarterOne";
+    src: url(../fonts/CarterOne.ttf);
+}
+
+@font-face {
+    font-family: "BahijTheSansArabic";
+    src: url(../fonts/Bahij_TheSansArabic-Plain.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+.home{
+    padding: 0 3vw;
+    background-color: #e8e8e8;
+    min-height: 100%;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    font-family: "CarterOne";
+    color: rgb(53, 53, 53);
+}
+
+
+.text1{
+    margin-top: 15vw;
+    margin-left: 1.3vw;
+    color: #4a10b4;
+    font-family: "BahijTheSansArabic";
+    font-weight: bold;
+}
+
+.Rectangle {
+    border-radius: 50px;
+    background-color: rgb(193, 195, 196);
+    display: flex;
+    width: 10vw;
+    height: 10vw;
+    
+  }
+.Rectangle {
+    border-radius: 50px;
+    background-color: rgb(193, 195, 196);
+    display: flex;
+    width: 10vw;
+    height: 10vw;
+    
+  }
+  .imgs{
+      display: flex;
+  }
+  .imgss{
+      display: flex;
+  }
+
+.img-inrect{
+    width: 100%;
+    margin: auto 0;
+}
+.img-inrect1{
+    height: 90%;
+    margin: auto;
+}
+
+#ajax{
+    margin-top: 6vw;
+    margin-left: 1.3vw;
+}
+
+#react{
+    margin-top: -1vw;
+    margin-left: 13vw;
+}
+
+#html5{
+    margin-top: -18vw;
+    margin-left: -7vw;
+}
+
+#xml{
+    margin-top: -6vw;
+    margin-left: 15vw;
+}
+#js{
+    margin-top: -20vw;
+    margin-left: -5vw;
+}
+
+#css{
+    margin-top: 7vw;
+    margin-left: -2vw;
+}
+
+#sass{
+    margin-top: -10vw;
+    margin-left: 5vw;
+}
+
+.debtn{
+    margin: 0 auto;
+}
+
+#buybtn{
+    background-color: #4a10b4;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+}
+
+#buybtn:hover{
+    background-color: navy;
+    transition: all 800ms;
+
+}
+#buybtn:focus{
+    background-color: navy;
+
+}
+
+.debtn{
+    background-color: #4a10b4;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.debtn:hover{
+    background-color: navy;
+    transition: all 800ms;
+
+}
+.debtn:focus{
+    background-color: navy;
+
+}
+
+.borderdown{
+    width: 100%;
+    height: 15px;
+    background-color: rgba(59, 60, 59,0.7);
+}
+
+.blogp{
+    width: 100%;
+    min-height: 100%;
+    background-color: #58575a;
+}
+
+.imagssection{
+    display: flex;
+    flex-direction: row;
+    padding: 125px 125px 0px 125px;
+    width: 100%;
+    min-height: 90%;
+    justify-content: space-between;
+}
+
+.card{
+    width: 45%;
+}
+
+.card img{
+    width: 100%;
+    transition: all 500ms;
+
+}
+.card img:hover{
+    transform: scale(1.2);
+    transition: all 500ms;
+}
+
+.card h4{
+    text-align: center;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.footerr{
+    text-align: center;
+    width: 100%;
+    background-color: #e8e8e8;
+    height: 75px;
+    margin-top: -20px;
+    
+}
+
+.footerr h3{
+    line-height: 75px;
+}
+
+/* media */
+@media (min-width:1473px) {
+    .debtn{
+        margin-top: -2vw;
+    }
+}
+
+@media (max-width:768px) {
+    .imgs {
+        display: flex;
+        margin-top: 115px;
+    }
+    .imagssection{
+        padding: 75px 50px 0 50px;
+    }
+    .imgss{
+        margin-top: 1.5vw;
+    }
+
+    
+}
+
+
+@media (max-width:425px) {
+    .text1{
+        text-align: center;
+    }
+    .imagssection{
+        flex-direction: column;
+        padding: 75px 50px 0 50px;
+    }
+    .card{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width:1440px) {
+    .navbar h1{
+        font-size: 3vw;
+    }
+    #buybtn {
+        background-color: #4a10b4;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 150px;
+        border-radius: 25px;
+        margin-top: 40px;
+        font-size: 1.5rem;
+        outline: none;
+        cursor: pointer;
+    }
+    .card h4 {
+        font-size: 2vw;
+    }
+    .text1 {
+        font-size: 3vw;
+    }
+}
+
+
